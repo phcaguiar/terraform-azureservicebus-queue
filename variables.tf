@@ -26,7 +26,7 @@ variable "servicebus_queue_max_delivery_count" {
 
 variable "servicebus_queue_lock_duration" {
   description = "Boolean flag which controls whether the Queue requires sessions. Defaults to false."
-  default     = "false"
+  default     = "PT1M"
 }
 
 variable "servicebus_queue_requires_session" {
