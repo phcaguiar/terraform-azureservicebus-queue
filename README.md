@@ -10,7 +10,7 @@ This module creates an Azure Service Bus Queue and Authorization Rule following 
 ## How to use
 
 The following parameters are expected:
-- ``servicebus_queue_name``: All resources in this module will be created in this dns zone. Ex: dev.dca.infra.stone.com.br
+- ``servicebus_queue_name``: All resources in this module will be created in this dns zone.
 - ``resource_group_name``: All resources in this module will be created in this resource group. Ex: Infrastructure-Common-EC2-DEV
 - ``servicebus_namespace_name``: All resources in this module will be created in this service bus namespace.
 - ``has_servicebus_queue_authorization_rule``: If you need to create service bus authorization rule, you must pass the value true.
